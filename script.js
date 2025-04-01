@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Sample data (replace with your JSON data)
     fetch('links.json')
         .then(response => response.json())
         .then(data => {
